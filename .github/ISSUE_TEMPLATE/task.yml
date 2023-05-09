@@ -1,0 +1,12 @@
+name: 📝 New Sprint Task
+description: Create a new sprint task
+title: "OSW#1: <C2> - <Function>"
+labels: ["OSW#1 Task"]
+body:
+- type: textarea
+  attributes:
+    label: Task
+    description: Task description
+    render: markdown
+  validations:
+    required: true
